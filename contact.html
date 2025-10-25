@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#0f172a" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/css/styles.css" />
+  <script defer src="/assets/js/main.js"></script>
+  <link rel="icon" href="/assets/img/favicon.png"/>
+
+  <title>Contact — Free Estimate</title>
+  <meta name="description" content="Request a free remodeling estimate. Tell us about your project and we’ll get back within one business day." />
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a class="logo" href="/index.html"><span class="logo-badge">H</span><span class="logo-text">Hairstons Interior & Exterior Remodeling</span></a>
+    <button class="menu-toggle" aria-label="Open menu" aria-expanded="false">
+      <span class="bar"></span><span class="bar"></span><span class="bar"></span>
+    </button>
+    <nav class="nav" role="navigation">
+      <a href="/index.html">Home</a>
+      <a href="/services.html">Services</a>
+      <a href="/gallery.html">Gallery</a>
+      <a href="/about.html">About</a>
+      <a class="btn btn-primary" href="/contact.html">Free Estimate</a>
+    </nav>
+  </div>
+</header>
+
+<main class="section container contact">
+  <div class="contact-card">
+    <h1 class="section-title">Get Your Free Estimate</h1>
+    <p class="lede">Tell us a little about your project and we’ll follow up within one business day.</p>
+    <ul class="contact-lines">
+      <li><strong>Phone:</strong> <a href="tel:+15551234567">(555) 123-4567</a></li>
+      <li><strong>Email:</strong> <a href="mailto:hello@hairstons.com">hello@hairstons.com</a></li>
+      <li><strong>Address:</strong> 123 Main St, City, ST 00000</li>
+      <li><strong>Hours:</strong> Mon–Sat 8am–6pm</li>
+    </ul>
+  </div>
+  <form class="form-card" id="estimate-form" action="#" method="post" novalidate>
+    <div class="grid-2">
+      <label>Full name
+        <input required name="name" placeholder="Jane Doe"/>
+      </label>
+      <label>Email
+        <input required type="email" name="email" placeholder="you@example.com"/>
+      </label>
+      <label>Phone
+        <input name="phone" placeholder="(555) 555‑5555"/>
+      </label>
+      <label>Service
+        <select name="service">
+          <option>Kitchen</option><option>Bathroom</option><option>Basement</option>
+          <option>Roofing</option><option>Siding</option><option>Deck/Painting</option><option>Other</option>
+        </select>
+      </label>
+      <label class="span-2">Project details
+        <textarea name="message" rows="5" placeholder="What would you like to build or remodel?"></textarea>
+      </label>
+      <label class="consent span-2">
+        <input type="checkbox" id="consent" required /> I agree to be contacted about my request.
+      </label>
+    </div>
+    <button class="btn btn-primary w-full" type="submit">Send Request</button>
+    <p class="form-note">This form is a demo. Connect it to your email, Formspree, Netlify Forms, or a simple serverless function.</p>
+  </form>
+</main>
+
+<footer class="site-footer">
+  <div class="container grid-3">
+    <div>
+      <div class="logo-row"><span class="logo-badge">H</span><strong>Hairstons Interior & Exterior Remodeling</strong></div>
+      <p>Four generations of craftsmanship. Interior & exterior remodeling done right.</p>
+      <div class="badges">
+        <span>4× Generations</span>
+        <span>Licensed & Insured</span>
+        <span>Warranty on Labor</span>
+      </div>
+    </div>
+    <div>
+      <h4>Contact</h4>
+      <ul class="list-plain">
+        <li><a href="tel:+15551234567">(555) 123-4567</a></li>
+        <li><a href="mailto:hello@hairstons.com">hello@hairstons.com</a></li>
+        <li>123 Main St, City, ST 00000</li>
+        <li>Mon–Sat 8am–6pm</li>
+      </ul>
+    </div>
+    <div>
+      <h4>Links</h4>
+      <ul class="list-plain">
+        <li><a href="/services.html">Services</a></li>
+        <li><a href="/gallery.html">Gallery</a></li>
+        <li><a href="/about.html">About</a></li>
+        <li><a href="/contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="legal container">
+    <small>© 2025 Hairstons Interior & Exterior Remodeling. All rights reserved.</small>
+    <small>License #000000</small>
+  </div>
+</footer>
+
+</body></html>
